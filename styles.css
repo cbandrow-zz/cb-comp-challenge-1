@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,700');
 html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  font-family: "Poppins", sans-serif;
+  font-family: "Exo 2", sans-serif;
   box-sizing: inherit;
 }
 
@@ -13,14 +13,10 @@ body {
   margin: 0px
 }
 
-img{
-  width: 100%;
-
-}
-
 .image-scroll{
   background-image: url("images/vader-mobile-profile.jpg");
   background-size: cover;
+  height: 25vh;
 }
 
 
@@ -72,10 +68,70 @@ img{
   background-color: #FF1900;
 }
 
+img{
+  width: 100%;
+}
 
-/*Colors:
+h1{
+  font-size: 24px;
+  margin-top: 5px;
+}
 
+p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+button{
+  font-size: 12px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0);
+  border-width: 2px;
+  border-color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-style: solid;
+}
 
+button:active{
+  background-color: #7F0C00;
+}
+button:focus{
+  outline: none;
+}
 
-*/
+#left{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: auto;
+}
+#right{
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: auto;
+}
+.button-icon {
+  width: 10px;
+}
+.button-arrows{
+  font-size: 16px;
+  margin-top: 65px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  border-width: 3px;
+  background-color: rgba(0,0,0,.75);
+  color: #ffffff;
+}
+
+.button-arrows:active{
+  background-color: rgba(0,0,0,.50);
+}
