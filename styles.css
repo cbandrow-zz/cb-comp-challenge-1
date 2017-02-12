@@ -6,6 +6,7 @@ html {
 *, *:before, *:after {
   font-family: "Exo 2", sans-serif;
   box-sizing: inherit;
+  color: #ffffff;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   margin: 0px;
 }
 
-.container {
+.section-boxes {
   color: #ffffff;
   height: 100vh;
   display: flex;
@@ -21,14 +22,15 @@ body {
   text-align: center;
 }
 
-.image-scroll-top{
+.section-image-top{
+  display: block;
   background-image: url("images/vader-mobile-profile.jpg");
   background-size: cover;
   height: 25vh;
   position: relative;
 }
 
-.image-scroll-right{
+.section-image-right{
   display: none;
   background-image: url("images/vader-mobile-profile.jpg");
   background-size: cover;
