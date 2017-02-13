@@ -105,6 +105,11 @@ p{
   margin-right: 20px;
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+}
+
 button{
   font-size: 12px;
   color: #ffffff;
@@ -178,12 +183,31 @@ button:hover{
   background-color: rgba(50,0,0,.75);
 }
 
-.button-nav-dots{
-  padding: 0px;
-  margin-top: 7px;
-  background-color: rgba(0,0,0,.75);
-  border-radius: 50px;
+.button-dots{
   position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.button-dots-inactive{
+  display: inline-block;
+  padding: 4px;
+  margin-top: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: rgba(255,255,255,.45);
+  border-radius: 50px;
+  border-width: 0px;
+}
+.button-dots-active{
+  display: inline-block;
+  padding: 4px;
+  margin-top: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border-width: 0px;
 }
 
 
@@ -281,7 +305,7 @@ button:hover{
 
   .section-image-right{
     position: relative;
-    display: inline;
+    display: flex;
     width: 40%;
     background-size: cover;
     background-position: center;
@@ -291,7 +315,7 @@ button:hover{
   }
 
   .box {
-    font-size: 15px;
+    font-size: 20px;
     width: 33.33333%;
     height: 33.333333%;
   }
@@ -312,16 +336,16 @@ button:hover{
 
   p{
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   button{
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 25px;
     margin-right: 5px;
     margin-top: 20px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 17px;
     padding-right: 17px;
   }
@@ -332,9 +356,14 @@ button:hover{
     width: 75px;
   }
 
+  .button-icon {
+    width: 15px;
+  }
+
   .button-arrows{
+    align-items: center;
     font-size: 24px;
-    margin-top: 380px;
+    /*margin-top: 500px;*/
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 12px;
@@ -342,11 +371,9 @@ button:hover{
     border-radius: 50px;
   }
 
-  .button-nav-dots{
-    padding: 0px;
-    margin-top: 7px;
-    background-color: rgba(0,0,0,.75);
-    border-radius: 50px;
-    position: absolute;
+  .button-dots-inactive, .button-dots-active{
+    margin-top: 20px;
+    padding: 6px;
   }
+
 }
