@@ -6,17 +6,21 @@ This project was created in order to match a design comp. Most comps are to be e
 ---
 ##### Original Comp Outline
 
-[Original Comp Outline](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp-challenge-1.jpg)
+![Original Comp Outline](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp-challenge-1.jpg)
 
 ---
 
 ##### Design Results
 
 Desktop Site:
+
 ![Desktop Version](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp1-desktop.png)
-
+---
 Tablet Site:
-![Tablet Version](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp1-tablet.png)
 
+![Tablet Version](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp1-tablet.png)
+---
 Mobile Site:
+
 ![Mobile Version](https://raw.githubusercontent.com/cbandrow/cb-comp-challenge-1/master/images/static-comp1-mobile.png)
+---
