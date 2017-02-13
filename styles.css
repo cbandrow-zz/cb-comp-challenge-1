@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #555555;
+  background-color: #000000;
   margin: 0px;
 }
 
@@ -26,6 +26,8 @@ body {
   display: block;
   background-image: url("images/vader-mobile-profile.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   height: 25vh;
   position: relative;
 }
@@ -184,7 +186,81 @@ button:hover{
   position: absolute;
 }
 
+
 @media screen and (min-width : 768px){
+
+  .section-image-top{
+    height: 25vh;
+  }
+
+  container-wrap{
+    width: 100%;
+    display: flex;
+  }
+
+  .section-image-top{
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 25vh;
+  }
+
+
+  .section-boxes {
+    width: 100%;
+    margin: 0px;
+    height: 75vh;
+  }
+
+  .box {
+    font-size: 15px;
+    width: 50%;
+    height: 30%;
+  }
+
+  .box1 {
+    text-align: left;
+    width: 50%;
+    height: 30%;
+  }
+
+  .section-icons{
+    margin-top: 65px;
+    margin-bottom: 20px;
+    width:55px;
+  }
+
+  h1{
+    text-align: left;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+
+  p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;s
+  }
+
+  button{
+    margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .button-arrows{
+    margin-top: 115px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+@media screen and (min-width : 1024px){
 
   section{
     display: flex;
@@ -200,6 +276,7 @@ button:hover{
   .section-boxes {
     width: 60%;
     margin: 0px;
+    height: 100vh;
   }
 
   .section-image-top{
@@ -211,7 +288,7 @@ button:hover{
     display: inline;
     width: 40%;
     background-size: cover;
-    background-position: 50px right;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0px;
@@ -226,6 +303,7 @@ button:hover{
   .box1 {
     text-align: left;
     width: 66.66666%;
+    height: 33.33333%;
   }
 
   h1{
@@ -253,9 +331,9 @@ button:hover{
   }
 
   .section-icons{
-    margin-top: 40%;
+    margin-top: 90px;
     margin-bottom: 20px;
-    width: 65px;
+    width: 75px;
   }
 
   .button-arrows{
